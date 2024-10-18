@@ -1,0 +1,184 @@
+/* styles.css */
+
+/* Global Styles */
+* {
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+body {
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    position: sticky; /* Make the navbar sticky */
+    top: 0; /* Stick to the top */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+/* Content Styles */
+/* .container{
+    padding-left: 60px;
+    padding-right: 60px;
+} */
+.content {
+    padding: 2rem;
+    text-align: center;
+    flex: 1; /* Allow content to grow and take available space */
+    
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    font-size: 1.2rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%; /* Full width */
+    position: relative; /* Fix the footer to the bottom */
+    bottom: 0; /* Stick to the bottom */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack navigation items vertically */
+        width: 100%; /* Full width for the nav items */
+    }
+
+    nav ul li {
+        padding: 10px 0; /* Add padding for better touch targets */
+        width: 100%; /* Full width for each nav item */
+        text-align: center; /* Center text in nav items */
+    }
+
+    .content {
+        padding: 1rem; /* Reduce padding on smaller screens */
+    }
+
+    .content h2 {
+        font-size: 1.5rem; /* Smaller heading on mobile */
+    }
+
+    .content p {
+        font-size: 1rem; /* Smaller paragraph text on mobile */
+    }
+}
+
+/* Card Styles */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Aligns cards evenly */
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff; /* White background for the card */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 10px; /* Space between cards */
+    width: 300px; /* Fixed width for cards */
+    overflow: hidden; /* Ensures content doesn't overflow */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+}
+
+.card-image {
+    width: 100%; /* Full width for the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.card-content {
+    padding: 15px; /* Padding inside the card */
+}
+
+.card-content h3 {
+    margin: 0 0 10px; /* Margin for the title */
+    font-size: 1.5em; /* Font size for the title */
+}
+
+.card-content p {
+    color: #666; /* Gray color for the description */
+    font-size: 1em; /* Font size for the description */
+}
+
+/* Search Input Styles */
+.search-container {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    margin: 20px 0; /* Margin above and below */
+}
+
+.search-input {
+    width: 50%; /* Set width to 50% */
+    padding: 10px; /* Padding for the input */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1em; /* Font size */
+}
+
+/* styles.css or your relevant CSS file */
+.buy-button {
+    display: inline-block; /* Inline block for button styling */
+    padding: 10px 15px; /* Padding for the button */
+    margin-top: 10px; /* Margin above the button */
+    background-color: #28a745; /* Green background color */
+    color: white; /* White text color */
+    text-align: center; /* Center text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-size: 1em; /* Font size */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.buy-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
