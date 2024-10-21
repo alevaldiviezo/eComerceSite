@@ -76,6 +76,13 @@ const Content: React.FC = () => {
             buyLink:'https://amzn.to/409rNDV',
             description: "This lightweight design causes no fuss thanks to non-marking soles and the convenient, easy-to-clean exterior; any muck washes off easily with just some simple soap and water "
         },
+        {
+            index: 9,
+            name:"SECRUI Wireless Doorbell, Plug in Waterproof Battery Operated Cordless Doorbell Operating at 1,000 Feet Long Range",
+            image:'https://m.media-amazon.com/images/I/51o0KzJz4QL._AC_SL1500_.jpg',
+            buyLink:'https://amzn.to/48eFfIA',
+            description: "This wireless doorbells offers a remote connection of up to 300 M/1000 foot and does not interfere with other equipment in your home.The Plug in doorbell receiver bell has features 58 tunes and 5 adjustable volume levels ranging from 0 to 120 dB. It will remember your settings even if power outage. "
+        },
     ];
     
     return (
