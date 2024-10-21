@@ -83,6 +83,13 @@ const Content: React.FC = () => {
             buyLink:'https://amzn.to/48eFfIA',
             description: "This wireless doorbells offers a remote connection of up to 300 M/1000 foot and does not interfere with other equipment in your home.The Plug in doorbell receiver bell has features 58 tunes and 5 adjustable volume levels ranging from 0 to 120 dB. It will remember your settings even if power outage. "
         },
+        {
+            index: 10,
+            name:"Magnesium Citrate 1,480mg 120 Vegan Capsules 2 Months Supply - Providing 440mg Elemental Magnesium Per Serving - ",
+            image:'https://m.media-amazon.com/images/I/61UHVkKDv-L._AC_SL1500_.jpg',
+            buyLink:'https://amzn.to/407s8Hf',
+            description: "ENHANCED BIOAVAILABILITY – Multivita magnesium capsules contain 1480mg of Magnesium Citrate and 440mg of Elemental Magnesium, the most bioavailable form of magnesium, per serving of 2 easy to swallow capsules. Each pouch is supplied with 120 easy-to-swallow vegan capsules that will last for 2 months. "
+        },
     ];
     
     return (
