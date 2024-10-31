@@ -125,6 +125,20 @@ const Content: React.FC = () => {
             buyLink:'https://amzn.to/3AmQn9S',
             description: "  Dual monitor for laptop screen extender supports you to open multiple windows at the same time, work, video conference, watch movies, or play games on different screens by not having to switch back and forth on a single laptop screen continuously, increase your efficient by up to 200%. Perfect for people who work on the go，remote workers, watch a movie，IT professionals, Players, Stock traders, Programmers, game players, etc! "
         },
+        {
+            index: 16,
+            name:"Kitten Colouring Book for Kids: Purr-fect Pages of Fun and Creativity - Colorful Cat Capers! ",
+            image:'https://m.media-amazon.com/images/I/71n0pscuexL._SL1293_.jpg',
+            buyLink:'https://amzn.to/40rfQcH',
+            description: "a delightful coloring book designed just for kids! Bursting with whimsical kitten illustrations, this book invites young artists to unleash their creativity and bring each adorable scene to life. Every page is a new adventure, offering hours of fun and imaginative exploration. Perfect for cat lovers and budding artists alike"
+        },
+        {
+            index: 17,
+            name:"Beautiful Anime Kids Couple Colouring Book: Adorable Moments in Anime: A Coloring Adventure for Kids",
+            image:'https://m.media-amazon.com/images/I/61B18EJv8KL._SL1293_.jpg',
+            buyLink:'https://amzn.to/48siuks',
+            description: "Step into a whimsical world of creativity with the 'Beautiful Anime Kids Couple Coloring Book.' This delightful coloring book is designed to captivate the hearts and minds of children, offering an enchanting collection of illustrations that depict adorable young anime couples. Each page is meticulously crafted to showcase the charm and innocence of childhood friendships and budding romances, providing a perfect canvas for kids to express their artistic flair."
+        },
     ];
     
     return (
